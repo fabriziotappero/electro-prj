@@ -1,6 +1,8 @@
 # Eagle temp files
 *.s#*
 
+# atom temp file
+operation_log.txt
 
 # Compiled Object files
 *.slo
