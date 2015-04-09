@@ -1,3 +1,7 @@
+# Eagle temp files
+*.s#*
+
+
 # Compiled Object files
 *.slo
 *.lo
