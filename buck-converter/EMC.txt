@@ -1,0 +1,6 @@
+
+It would be very interesting to perform some some sort of measurement of EMC, 
+electromagnetic compatibility.
+
+Find out how to do it.
+
