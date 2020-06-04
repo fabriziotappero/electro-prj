@@ -16,24 +16,24 @@ $EndDescr
 $Comp
 L Graphic:Logo_Open_Hardware_Small logo1
 U 1 1 5AD5B629
-P 10850 6850
-F 0 "logo1" H 10850 7125 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 10850 6625 50  0001 C CNN
-F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 10850 6850 50  0001 C CNN
-F 3 "none" H 10850 6850 50  0001 C CNN
-F 4 "Logo" H 10850 6850 50  0001 C CNN "Description"
-F 5 "none" H 10850 6850 50  0001 C CNN "Digikey PN"
-F 6 "none" H 10850 6850 50  0001 C CNN "Digikey Price"
-F 7 "none" H 10850 6850 50  0001 C CNN "LCSC PN"
-F 8 "none" H 10850 6850 50  0001 C CNN "LCSC Price"
-F 9 "none" H 10850 6850 50  0001 C CNN "MPN"
-F 10 "none" H 10850 6850 50  0001 C CNN "Manufacturer"
-F 11 "none" H 10850 6850 50  0001 C CNN "Mouser PN"
-F 12 "none" H 10850 6850 50  0001 C CNN "Mouser Price"
-	1    10850 6850
+P 10650 6900
+F 0 "logo1" H 10650 7175 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10650 6675 50  0001 C CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 10650 6900 50  0001 C CNN
+F 3 "none" H 10650 6900 50  0001 C CNN
+F 4 "Logo" H 10650 6900 50  0001 C CNN "Description"
+F 5 "none" H 10650 6900 50  0001 C CNN "Digikey PN"
+F 6 "none" H 10650 6900 50  0001 C CNN "Digikey Price"
+F 7 "none" H 10650 6900 50  0001 C CNN "LCSC PN"
+F 8 "none" H 10650 6900 50  0001 C CNN "LCSC Price"
+F 9 "none" H 10650 6900 50  0001 C CNN "MPN"
+F 10 "none" H 10650 6900 50  0001 C CNN "Manufacturer"
+F 11 "none" H 10650 6900 50  0001 C CNN "Mouser PN"
+F 12 "none" H 10650 6900 50  0001 C CNN "Mouser Price"
+	1    10650 6900
 	1    0    0    -1  
 $EndComp
-Text Notes 7050 6850 0    79   ~ 16
+Text Notes 7050 6800 0    79   ~ 16
 5V, 3A BUCK CONVERTER
 $Comp
 L Device:C C4
@@ -86,8 +86,8 @@ F 3 "" H 1150 1550 50  0001 C CNN
 	1    1150 1550
 	-1   0    0    -1  
 $EndComp
-Text Notes 2350 800  0    79   ~ 16
-5V, 3A BUCK DC/DC CONVERTER
+Text Notes 2700 850  0    79   ~ 16
+5V, 3A BUCK DC/DC CONVERTER - PCB1
 $Comp
 L Device:R R1
 U 1 1 5EDA5531
@@ -631,24 +631,24 @@ Vcutoff=5.6V\nVon=6V
 $Comp
 L Regulator_Switching:LMR62421XMF U2
 U 1 1 5ED62E4D
-P 5000 4550
-F 0 "U2" H 5150 4300 50  0000 C CNN
-F 1 "LMR62421XMF" H 5000 4826 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5050 4300 50  0001 L CIN
-F 3 "" H 5000 4650 50  0001 C CNN
-	1    5000 4550
+P 4300 5650
+F 0 "U2" H 4450 5400 50  0000 C CNN
+F 1 "LMR62421XMF" H 4300 5926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4350 5400 50  0001 L CIN
+F 3 "" H 4300 5750 50  0001 C CNN
+	1    4300 5650
 	1    0    0    -1  
 $EndComp
 Text Label 6250 1400 0    50   ~ 0
 5V
 Wire Wire Line
-	10400 1100 10400 1150
+	1100 5900 1100 5950
 Wire Wire Line
-	10100 1150 10100 1100
+	800  5950 800  5900
 Wire Wire Line
-	10100 1100 10400 1100
-Text Notes 4000 3700 0    79   ~ 16
-12V, 2A BOOST DC/DC CONVERTER
+	800  5900 1100 5900
+Text Notes 1250 3100 0    79   ~ 16
+12V, 2A BOOST DC/DC CONVERTER + 2S LITHIUM BATT. CHARGER - PCB3
 $Comp
 L Device:R R5
 U 1 1 5ED7D977
@@ -690,66 +690,6 @@ Text Notes 6500 1700 0    59   ~ 0
 DNF
 Text Notes 6500 2100 0    59   ~ 0
 DNF
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5ED72749
-P 10300 5700
-F 0 "H1" H 10400 5746 50  0000 L CNN
-F 1 "MountingHole 1" H 10400 5655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10300 5700 50  0001 C CNN
-F 3 "none" H 10300 5700 50  0001 C CNN
-F 4 "none" H 10300 5700 50  0001 C CNN "Description"
-F 5 "none" H 10300 5700 50  0001 C CNN "Digikey PN"
-F 6 "none" H 10300 5700 50  0001 C CNN "Digikey Price"
-F 7 "none" H 10300 5700 50  0001 C CNN "LCSC PN"
-F 8 "none" H 10300 5700 50  0001 C CNN "LCSC Price"
-F 9 "none" H 10300 5700 50  0001 C CNN "MPN"
-F 10 "none" H 10300 5700 50  0001 C CNN "Manufacturer"
-F 11 "none" H 10300 5700 50  0001 C CNN "Mouser PN"
-F 12 "none" H 10300 5700 50  0001 C CNN "Mouser Price"
-	1    10300 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5ED72CE1
-P 10300 5950
-F 0 "H2" H 10400 5996 50  0000 L CNN
-F 1 "MountingHole 1" H 10400 5905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10300 5950 50  0001 C CNN
-F 3 "none" H 10300 5950 50  0001 C CNN
-F 4 "none" H 10300 5950 50  0001 C CNN "Description"
-F 5 "none" H 10300 5950 50  0001 C CNN "Digikey PN"
-F 6 "none" H 10300 5950 50  0001 C CNN "Digikey Price"
-F 7 "none" H 10300 5950 50  0001 C CNN "LCSC PN"
-F 8 "none" H 10300 5950 50  0001 C CNN "LCSC Price"
-F 9 "none" H 10300 5950 50  0001 C CNN "MPN"
-F 10 "none" H 10300 5950 50  0001 C CNN "Manufacturer"
-F 11 "none" H 10300 5950 50  0001 C CNN "Mouser PN"
-F 12 "none" H 10300 5950 50  0001 C CNN "Mouser Price"
-	1    10300 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5ED72F90
-P 10300 6200
-F 0 "H3" H 10400 6246 50  0000 L CNN
-F 1 "MountingHole 1" H 10400 6155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10300 6200 50  0001 C CNN
-F 3 "none" H 10300 6200 50  0001 C CNN
-F 4 "none" H 10300 6200 50  0001 C CNN "Description"
-F 5 "none" H 10300 6200 50  0001 C CNN "Digikey PN"
-F 6 "none" H 10300 6200 50  0001 C CNN "Digikey Price"
-F 7 "none" H 10300 6200 50  0001 C CNN "LCSC PN"
-F 8 "none" H 10300 6200 50  0001 C CNN "LCSC Price"
-F 9 "none" H 10300 6200 50  0001 C CNN "MPN"
-F 10 "none" H 10300 6200 50  0001 C CNN "Manufacturer"
-F 11 "none" H 10300 6200 50  0001 C CNN "Mouser PN"
-F 12 "none" H 10300 6200 50  0001 C CNN "Mouser Price"
-	1    10300 6200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint P6
 U 1 1 5ED79F83
@@ -830,88 +770,83 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint P3
 U 1 1 5ED7FDF6
-P 7700 4450
-F 0 "P3" H 7700 4500 50  0001 L CNN
-F 1 "GND" V 7700 4650 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7900 4450 50  0001 C CNN
-F 3 "none" H 7900 4450 50  0001 C CNN
-F 4 "none" H 7700 4450 50  0001 C CNN "Manufacturer"
-F 5 "none" H 4400 150 50  0001 C CNN "MPN"
-F 6 "none" H 7700 4450 50  0001 C CNN "Description"
-F 7 "none" H 4400 150 50  0001 C CNN "Digikey PN"
-F 8 "none" H 4400 150 50  0001 C CNN "Digikey Price"
-F 9 "none" H 4400 150 50  0001 C CNN "Mouser PN"
-F 10 "none" H 4400 150 50  0001 C CNN "Mouser Price"
-F 11 "none" H 4400 150 50  0001 C CNN "LCSC PN"
-F 12 "none" H 4400 150 50  0001 C CNN "LCSC Price"
-	1    7700 4450
-	0    1    1    0   
+P 7700 5150
+F 0 "P3" H 7700 5200 50  0001 L CNN
+F 1 "GND" V 7700 5350 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7900 5150 50  0001 C CNN
+F 3 "none" H 7900 5150 50  0001 C CNN
+F 4 "none" H 7700 5150 50  0001 C CNN "Manufacturer"
+F 5 "none" H 4400 850 50  0001 C CNN "MPN"
+F 6 "none" H 7700 5150 50  0001 C CNN "Description"
+F 7 "none" H 4400 850 50  0001 C CNN "Digikey PN"
+F 8 "none" H 4400 850 50  0001 C CNN "Digikey Price"
+F 9 "none" H 4400 850 50  0001 C CNN "Mouser PN"
+F 10 "none" H 4400 850 50  0001 C CNN "Mouser Price"
+F 11 "none" H 4400 850 50  0001 C CNN "LCSC PN"
+F 12 "none" H 4400 850 50  0001 C CNN "LCSC Price"
+	1    7700 5150
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint P4
 U 1 1 5ED82B31
-P 7700 4850
-F 0 "P4" H 7700 4900 50  0001 L CNN
-F 1 "5V" V 7700 5050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7900 4850 50  0001 C CNN
-F 3 "none" H 7900 4850 50  0001 C CNN
-F 4 "none" H 7700 4850 50  0001 C CNN "Manufacturer"
-F 5 "none" H 4400 550 50  0001 C CNN "MPN"
-F 6 "none" H 7700 4850 50  0001 C CNN "Description"
-F 7 "none" H 4400 550 50  0001 C CNN "Digikey PN"
-F 8 "none" H 4400 550 50  0001 C CNN "Digikey Price"
-F 9 "none" H 4400 550 50  0001 C CNN "Mouser PN"
-F 10 "none" H 4400 550 50  0001 C CNN "Mouser Price"
-F 11 "none" H 4400 550 50  0001 C CNN "LCSC PN"
-F 12 "none" H 4400 550 50  0001 C CNN "LCSC Price"
-	1    7700 4850
-	0    1    1    0   
+P 7700 4750
+F 0 "P4" H 7700 4800 50  0001 L CNN
+F 1 "5V" V 7700 4950 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7900 4750 50  0001 C CNN
+F 3 "none" H 7900 4750 50  0001 C CNN
+F 4 "none" H 7700 4750 50  0001 C CNN "Manufacturer"
+F 5 "none" H 4400 450 50  0001 C CNN "MPN"
+F 6 "none" H 7700 4750 50  0001 C CNN "Description"
+F 7 "none" H 4400 450 50  0001 C CNN "Digikey PN"
+F 8 "none" H 4400 450 50  0001 C CNN "Digikey Price"
+F 9 "none" H 4400 450 50  0001 C CNN "Mouser PN"
+F 10 "none" H 4400 450 50  0001 C CNN "Mouser Price"
+F 11 "none" H 4400 450 50  0001 C CNN "LCSC PN"
+F 12 "none" H 4400 450 50  0001 C CNN "LCSC Price"
+	1    7700 4750
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J2
 U 1 1 5ED9BF0A
-P 8400 2000
-F 0 "J2" H 8750 2750 50  0000 C CNN
-F 1 "USB-C Connector" V 7900 2300 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 8550 2000 50  0001 C CNN
-F 3 "https://gct.co/files/drawings/usb4085.pdf" H 8550 2000 50  0001 C CNN
-F 4 "GCT" H 8400 2000 50  0001 C CNN "Manufacturer"
-F 5 "USB4085-GF-A" H 8400 2000 50  0001 C CNN "MPN"
-F 6 "USB Connectors USB 3.1 Receptacle" H 8400 2000 50  0001 C CNN "Description"
-F 7 "2073-USB4085-GF-ACT-ND " H 8400 2000 50  0001 C CNN "Digikey PN"
-F 8 "none" H 8400 2000 50  0001 C CNN "Digikey Price"
-F 9 "none" H 8400 2000 50  0001 C CNN "Mouser PN"
-F 10 "none" H 8400 2000 50  0001 C CNN "Mouser Price"
-F 11 "none" H 8400 2000 50  0001 C CNN "LCSC PN"
-F 12 "none" H 8400 2000 50  0001 C CNN "LCSC Price"
-	1    8400 2000
+P 3100 4950
+F 0 "J2" H 3450 5700 50  0000 C CNN
+F 1 "USB-C Connector" V 2600 5250 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 3250 4950 50  0001 C CNN
+F 3 "https://gct.co/files/drawings/usb4085.pdf" H 3250 4950 50  0001 C CNN
+F 4 "GCT" H 3100 4950 50  0001 C CNN "Manufacturer"
+F 5 "USB4085-GF-A" H 3100 4950 50  0001 C CNN "MPN"
+F 6 "USB Connectors USB 3.1 Receptacle" H 3100 4950 50  0001 C CNN "Description"
+F 7 "2073-USB4085-GF-ACT-ND " H 3100 4950 50  0001 C CNN "Digikey PN"
+F 8 "none" H 3100 4950 50  0001 C CNN "Digikey Price"
+F 9 "none" H 3100 4950 50  0001 C CNN "Mouser PN"
+F 10 "none" H 3100 4950 50  0001 C CNN "Mouser Price"
+F 11 "none" H 3100 4950 50  0001 C CNN "LCSC PN"
+F 12 "none" H 3100 4950 50  0001 C CNN "LCSC Price"
+	1    3100 4950
 	1    0    0    1   
 $EndComp
-Text Notes 7950 800  0    79   ~ 16
-CHARGER IN USB
-Text Notes 9850 800  0    79   ~ 16
-AUDIO CODED USB
 $Comp
 L Connector:TestPoint P8
 U 1 1 5ED8B53C
-P 7700 4600
-F 0 "P8" H 7700 4650 50  0001 L CNN
-F 1 "BATT-P" V 7700 4800 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7900 4600 50  0001 C CNN
-F 3 "none" H 7900 4600 50  0001 C CNN
-F 4 "none" H 7700 4600 50  0001 C CNN "Manufacturer"
-F 5 "none" H 4400 300 50  0001 C CNN "MPN"
-F 6 "none" H 7700 4600 50  0001 C CNN "Description"
-F 7 "none" H 4400 300 50  0001 C CNN "Digikey PN"
-F 8 "none" H 4400 300 50  0001 C CNN "Digikey Price"
-F 9 "none" H 4400 300 50  0001 C CNN "Mouser PN"
-F 10 "none" H 4400 300 50  0001 C CNN "Mouser Price"
-F 11 "none" H 4400 300 50  0001 C CNN "LCSC PN"
-F 12 "none" H 4400 300 50  0001 C CNN "LCSC Price"
-	1    7700 4600
-	0    1    1    0   
+P 7700 5000
+F 0 "P8" H 7700 5050 50  0001 L CNN
+F 1 "BATT-P" V 7700 5200 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7900 5000 50  0001 C CNN
+F 3 "none" H 7900 5000 50  0001 C CNN
+F 4 "none" H 7700 5000 50  0001 C CNN "Manufacturer"
+F 5 "none" H 4400 700 50  0001 C CNN "MPN"
+F 6 "none" H 7700 5000 50  0001 C CNN "Description"
+F 7 "none" H 4400 700 50  0001 C CNN "Digikey PN"
+F 8 "none" H 4400 700 50  0001 C CNN "Digikey Price"
+F 9 "none" H 4400 700 50  0001 C CNN "Mouser PN"
+F 10 "none" H 4400 700 50  0001 C CNN "Mouser Price"
+F 11 "none" H 4400 700 50  0001 C CNN "LCSC PN"
+F 12 "none" H 4400 700 50  0001 C CNN "LCSC Price"
+	1    7700 5000
+	0    1    -1   0   
 $EndComp
-NoConn ~ 7700 4600
 Wire Notes Line
 	7050 1050 6750 1050
 Wire Notes Line
@@ -921,20 +856,20 @@ Wire Notes Line
 Wire Notes Line
 	7050 1700 7050 1050
 Wire Notes Line
-	7750 4350 7750 5000
+	7750 5250 7750 4600
 Wire Notes Line
-	7750 5000 8250 5000
+	7750 4600 8250 4600
 Wire Notes Line
-	8250 5000 8250 4350
+	8250 4600 8250 5250
 Wire Notes Line
-	8250 4350 7750 4350
+	8250 5250 7750 5250
 Wire Wire Line
 	5950 1400 6400 1400
 Wire Wire Line
 	6400 1400 6700 1400
 Connection ~ 6400 1400
-Text Notes 9650 5350 0    79   ~ 16
-PLATE MOUNTING HOLES
+Text Notes 10100 5750 0    59   ~ 0
+MOUNTING HOLES
 Wire Notes Line
 	600  1150 600  1650
 Wire Notes Line
@@ -946,83 +881,328 @@ Wire Notes Line
 $Comp
 L Connector:USB_C_Receptacle J3
 U 1 1 5EE1A73D
-P 1150 5250
-F 0 "J3" H 1257 6517 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 1257 6426 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Plug_JAE_DX07P024AJ1" H 1300 5250 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 5250 50  0001 C CNN
-	1    1150 5250
+P 8050 2000
+F 0 "J3" H 7700 3150 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 8157 3176 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Plug_JAE_DX07P024AJ1" H 8200 2000 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8200 2000 50  0001 C CNN
+	1    8050 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 5EDA277E
-P 10400 2050
-F 0 "J1" H 10750 2800 50  0000 C CNN
-F 1 "USB-C Connector" V 9900 2350 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 10550 2050 50  0001 C CNN
-F 3 "https://gct.co/files/drawings/usb4085.pdf" H 10550 2050 50  0001 C CNN
-F 4 "GCT" H 10400 2050 50  0001 C CNN "Manufacturer"
-F 5 "USB4085-GF-A" H 10400 2050 50  0001 C CNN "MPN"
-F 6 "USB Connectors USB 3.1 Receptacle" H 10400 2050 50  0001 C CNN "Description"
-F 7 "2073-USB4085-GF-ACT-ND " H 10400 2050 50  0001 C CNN "Digikey PN"
-F 8 "none" H 10400 2050 50  0001 C CNN "Digikey Price"
-F 9 "none" H 10400 2050 50  0001 C CNN "Mouser PN"
-F 10 "none" H 10400 2050 50  0001 C CNN "Mouser Price"
-F 11 "none" H 10400 2050 50  0001 C CNN "LCSC PN"
-F 12 "none" H 10400 2050 50  0001 C CNN "LCSC Price"
-	1    10400 2050
+P 1100 6850
+F 0 "J1" H 1450 7600 50  0000 C CNN
+F 1 "USB-C Connector" V 600 7150 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1250 6850 50  0001 C CNN
+F 3 "https://gct.co/files/drawings/usb4085.pdf" H 1250 6850 50  0001 C CNN
+F 4 "GCT" H 1100 6850 50  0001 C CNN "Manufacturer"
+F 5 "USB4085-GF-A" H 1100 6850 50  0001 C CNN "MPN"
+F 6 "USB Connectors USB 3.1 Receptacle" H 1100 6850 50  0001 C CNN "Description"
+F 7 "2073-USB4085-GF-ACT-ND " H 1100 6850 50  0001 C CNN "Digikey PN"
+F 8 "none" H 1100 6850 50  0001 C CNN "Digikey Price"
+F 9 "none" H 1100 6850 50  0001 C CNN "Mouser PN"
+F 10 "none" H 1100 6850 50  0001 C CNN "Mouser Price"
+F 11 "none" H 1100 6850 50  0001 C CNN "LCSC PN"
+F 12 "none" H 1100 6850 50  0001 C CNN "LCSC Price"
+	1    1100 6850
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	850  6850 1150 6850
-Wire Wire Line
-	1150 6850 2350 6850
-Wire Wire Line
-	2350 6850 2350 5500
-Connection ~ 1150 6850
-Wire Wire Line
-	1750 4250 2350 4250
-Wire Wire Line
-	2350 4250 2350 5000
-Wire Wire Line
-	1750 5050 2000 5050
-Wire Wire Line
-	2000 5050 2000 5200
-Wire Wire Line
-	2000 5200 2350 5200
-Wire Wire Line
-	1750 4850 2100 4850
-Wire Wire Line
-	2100 4850 2100 5100
-Wire Wire Line
-	2100 5100 2350 5100
-Wire Wire Line
-	1750 4950 1750 5050
-Connection ~ 1750 5050
-Wire Wire Line
-	1750 4750 1750 4850
-Connection ~ 1750 4850
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J4
-U 1 1 5EE52686
-P 2550 5200
-F 0 "J4" H 2600 5525 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 2600 5526 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x06_P2.00mm_Vertical" H 2550 5200 50  0001 C CNN
-F 3 "~" H 2550 5200 50  0001 C CNN
-	1    2550 5200
+L Device:L L2
+U 1 1 5EE5ECA8
+P 7200 5000
+F 0 "L2" V 7150 5050 50  0000 C CNN
+F 1 "10uH" V 7300 5000 50  0000 C CNN
+F 2 "Inductor_SMD:L_Wuerth_MAPI-4030" H 7200 5000 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/74438357100-1721906.pdf" H 7200 5000 50  0001 C CNN
+F 4 "Inductor SMD 4030 10uH 2.7A 110mOhms" H 7200 5000 50  0001 C CNN "Description"
+F 5 "none" H 7200 5000 50  0001 C CNN "Digikey PN"
+F 6 "none" H 7200 5000 50  0001 C CNN "Digikey Price"
+F 7 "none" H 7200 5000 50  0001 C CNN "LCSC PN"
+F 8 "none" H 7200 5000 50  0001 C CNN "LCSC Price"
+F 9 "74438357100" H 7200 5000 50  0001 C CNN "MPN"
+F 10 "Wurth" H 7200 5000 50  0001 C CNN "Manufacturer"
+F 11 "710-74438357100" H 7200 5000 50  0001 C CNN "Mouser PN"
+F 12 "$1.50" H 7200 5000 50  0001 C CNN "Mouser Price"
+	1    7200 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L LT3650EDD-8.2TRPBF:LT3650EDD-8.2TRPBF U3
+U 1 1 5EE64895
+P 6150 5200
+F 0 "U3" H 5800 5750 50  0000 C CNN
+F 1 "LT3650EDD-8.2TRPBF" H 6100 4350 50  0000 C CNN
+F 2 "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm_ThermalVias" H 6150 5200 50  0001 L BNN
+F 3 "Linear technology" H 6150 5200 50  0001 L BNN
+F 4 "-" H 6150 5200 50  0001 L BNN "Field4"
+F 5 "56P3101" H 6150 5200 50  0001 L BNN "Field5"
+F 6 "DFN-12" H 6150 5200 50  0001 L BNN "Field6"
+F 7 "LT3650EDD-8.2#TRPBF" H 6150 5200 50  0001 L BNN "Field7"
+	1    6150 5200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7250 2600 7250 600 
+Wire Notes Line
+	7250 600  550  600 
+Wire Notes Line
+	550  600  550  2600
+Wire Notes Line
+	550  2600 7250 2600
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J5
+U 1 1 5EDCE8C8
+P 10700 4850
+F 0 "J5" H 10750 4317 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 10750 5276 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x08_P2.00mm_Vertical" H 10700 4850 50  0001 C CNN
+F 3 "~" H 10700 4850 50  0001 C CNN
+	1    10700 4850
+	-1   0    0    1   
+$EndComp
+Text Notes 9050 900  0    79   ~ 16
+USB-C EXTENSION - PCB2
+Text Label 9800 4900 0    50   ~ 0
+USBD-P
+Text Label 9800 4800 0    50   ~ 0
+USBD-N
+Wire Wire Line
+	10200 4800 9800 4800
+Wire Wire Line
+	10200 4900 9800 4900
+$Comp
+L power:GNDA #PWR0103
+U 1 1 5EDE9D8E
+P 7550 5300
+F 0 "#PWR0103" H 7550 5050 50  0001 C CNN
+F 1 "GNDA" H 7555 5127 50  0000 C CNN
+F 2 "" H 7550 5300 50  0001 C CNN
+F 3 "" H 7550 5300 50  0001 C CNN
+	1    7550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J5
-U 1 1 5EE56BD7
-P 4000 5200
-F 0 "J5" H 4050 5525 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 4050 5526 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x06_P2.00mm_Vertical" H 4000 5200 50  0001 C CNN
-F 3 "~" H 4000 5200 50  0001 C CNN
-	1    4000 5200
+L power:GNDA #PWR0104
+U 1 1 5EDED888
+P 10000 6350
+F 0 "#PWR0104" H 10000 6100 50  0001 C CNN
+F 1 "GNDA" H 9800 6300 50  0000 C CNN
+F 2 "" H 10000 6350 50  0001 C CNN
+F 3 "" H 10000 6350 50  0001 C CNN
+	1    10000 6350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint H1
+U 1 1 5EDF80BE
+P 10000 5900
+F 0 "H1" H 10000 5950 50  0001 L CNN
+F 1 "MountingHole 1" V 10000 6100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10200 5900 50  0001 C CNN
+F 3 "none" H 10200 5900 50  0001 C CNN
+F 4 "none" H 10000 5900 50  0001 C CNN "Manufacturer"
+F 5 "none" H 6700 1600 50  0001 C CNN "MPN"
+F 6 "none" H 10000 5900 50  0001 C CNN "Description"
+F 7 "none" H 6700 1600 50  0001 C CNN "Digikey PN"
+F 8 "none" H 6700 1600 50  0001 C CNN "Digikey Price"
+F 9 "none" H 6700 1600 50  0001 C CNN "Mouser PN"
+F 10 "none" H 6700 1600 50  0001 C CNN "Mouser Price"
+F 11 "none" H 6700 1600 50  0001 C CNN "LCSC PN"
+F 12 "none" H 6700 1600 50  0001 C CNN "LCSC Price"
+	1    10000 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint H2
+U 1 1 5EDFE3AA
+P 10000 6100
+F 0 "H2" H 10000 6150 50  0001 L CNN
+F 1 "MountingHole 2" V 10000 6300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10200 6100 50  0001 C CNN
+F 3 "none" H 10200 6100 50  0001 C CNN
+F 4 "none" H 10000 6100 50  0001 C CNN "Manufacturer"
+F 5 "none" H 6700 1800 50  0001 C CNN "MPN"
+F 6 "none" H 10000 6100 50  0001 C CNN "Description"
+F 7 "none" H 6700 1800 50  0001 C CNN "Digikey PN"
+F 8 "none" H 6700 1800 50  0001 C CNN "Digikey Price"
+F 9 "none" H 6700 1800 50  0001 C CNN "Mouser PN"
+F 10 "none" H 6700 1800 50  0001 C CNN "Mouser Price"
+F 11 "none" H 6700 1800 50  0001 C CNN "LCSC PN"
+F 12 "none" H 6700 1800 50  0001 C CNN "LCSC Price"
+	1    10000 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint H3
+U 1 1 5EDFE6D3
+P 10000 6300
+F 0 "H3" H 10000 6350 50  0001 L CNN
+F 1 "MountingHole 3" V 10000 6500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10200 6300 50  0001 C CNN
+F 3 "none" H 10200 6300 50  0001 C CNN
+F 4 "none" H 10000 6300 50  0001 C CNN "Manufacturer"
+F 5 "none" H 6700 2000 50  0001 C CNN "MPN"
+F 6 "none" H 10000 6300 50  0001 C CNN "Description"
+F 7 "none" H 6700 2000 50  0001 C CNN "Digikey PN"
+F 8 "none" H 6700 2000 50  0001 C CNN "Digikey Price"
+F 9 "none" H 6700 2000 50  0001 C CNN "Mouser PN"
+F 10 "none" H 6700 2000 50  0001 C CNN "Mouser Price"
+F 11 "none" H 6700 2000 50  0001 C CNN "LCSC PN"
+F 12 "none" H 6700 2000 50  0001 C CNN "LCSC Price"
+	1    10000 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 5900 10000 6100
+Wire Wire Line
+	10000 6100 10000 6300
+Connection ~ 10000 6100
+NoConn ~ 3700 5050
+NoConn ~ 3700 4950
+NoConn ~ 3700 4850
+NoConn ~ 3700 4750
+NoConn ~ 3700 4450
+NoConn ~ 3700 4350
+NoConn ~ 3700 5350
+NoConn ~ 3700 5250
+$Comp
+L power:GNDA #PWR0105
+U 1 1 5EE2E5D3
+P 3250 4050
+F 0 "#PWR0105" H 3250 3800 50  0001 C CNN
+F 1 "GNDA" H 3400 3950 50  0000 C CNN
+F 2 "" H 3250 4050 50  0001 C CNN
+F 3 "" H 3250 4050 50  0001 C CNN
+	1    3250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4050 3100 3950
+Wire Wire Line
+	3100 3950 3250 3950
+Wire Wire Line
+	3250 3950 3250 4050
+Wire Wire Line
+	2800 4050 2800 3950
+Wire Wire Line
+	2800 3950 3100 3950
+Connection ~ 3100 3950
+Wire Wire Line
+	3700 5550 4000 5550
+Text Notes 2750 5900 0    59   ~ 0
+CHARGER INPUT
+Wire Wire Line
+	4600 5550 4750 5550
+Wire Wire Line
+	4750 5550 4750 4800
+Wire Wire Line
+	4750 4800 5450 4800
+Wire Wire Line
+	6850 5000 7050 5000
+Wire Wire Line
+	7350 5000 7700 5000
+Wire Wire Line
+	7700 5150 7550 5150
+Wire Wire Line
+	7550 5150 7550 5300
+Text Label 7250 4750 0    50   ~ 0
+BATT_5V
+Wire Wire Line
+	7700 4750 7250 4750
+$Comp
+L power:GNDA #PWR0106
+U 1 1 5EE71138
+P 10900 5250
+F 0 "#PWR0106" H 10900 5000 50  0001 C CNN
+F 1 "GNDA" H 10905 5077 50  0000 C CNN
+F 2 "" H 10900 5250 50  0001 C CNN
+F 3 "" H 10900 5250 50  0001 C CNN
+	1    10900 5250
+	1    0    0    -1  
+$EndComp
+Text Label 9800 4700 0    50   ~ 0
+BATT_5V
+Wire Wire Line
+	10200 4700 9800 4700
+Wire Wire Line
+	7750 3600 8050 3600
+NoConn ~ 11250 2100
+Text Notes 850  5650 0    59   ~ 0
+AUDIO CODED USB
+Wire Notes Line
+	7400 600  7400 3850
+Wire Notes Line
+	7400 3850 11050 3850
+Wire Notes Line
+	11050 3850 11050 600 
+Wire Notes Line
+	11050 600  7400 600 
+Wire Wire Line
+	10000 6350 10000 6300
+Connection ~ 10000 6300
+Wire Wire Line
+	10900 5150 10900 5250
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J4
+U 1 1 5EDC8642
+P 9800 2150
+F 0 "J4" H 9850 1600 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9850 2576 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x08_P2.00mm_Vertical" H 9800 2150 50  0001 C CNN
+F 3 "~" H 9800 2150 50  0001 C CNN
+	1    9800 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1000 9600 1000
+Wire Wire Line
+	9600 1000 9600 1700
+Wire Wire Line
+	10100 1850 10100 1700
+Wire Wire Line
+	10100 1700 9600 1700
+Connection ~ 9600 1700
+Wire Wire Line
+	9600 1700 9600 1850
+Wire Wire Line
+	9600 2550 9600 2800
+Wire Wire Line
+	9600 2800 10100 2800
+Wire Wire Line
+	10100 2800 10100 2550
+Wire Wire Line
+	8050 3600 9600 3600
+Wire Wire Line
+	9600 3600 9600 2800
+Connection ~ 8050 3600
+Connection ~ 9600 2800
+Wire Wire Line
+	8650 1500 8800 1500
+Wire Wire Line
+	8800 1500 8800 1600
+Wire Wire Line
+	8800 1600 8650 1600
+Wire Wire Line
+	8650 1700 8800 1700
+Wire Wire Line
+	8800 1700 8800 1800
+Wire Wire Line
+	8800 1800 8650 1800
+Wire Wire Line
+	9600 2150 9250 2150
+Wire Wire Line
+	9250 2150 9250 1600
+Wire Wire Line
+	9250 1600 8800 1600
+Connection ~ 8800 1600
+Wire Wire Line
+	8800 1800 9150 1800
+Wire Wire Line
+	9150 1800 9150 2250
+Wire Wire Line
+	9150 2250 9600 2250
+Connection ~ 8800 1800
 $EndSCHEMATC
